@@ -53,7 +53,7 @@ function LandingHeroPage() {
             className="bg-purple-700 hover:bg-purple-600 transition duration-300 px-6 py-3 rounded-xl text-white font-semibold shadow-lg"
             onClick={handleCreateAccount}
           >
-            Click to Explore
+            Click to Explore 
           </button>
         </div>
 
