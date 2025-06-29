@@ -35,12 +35,12 @@ function LandAbout() {
   return (
     <div
       id="about"
-      className="bg-gradient-to-tr from-pink-100 via-purple-100 to-pink-100 py-10 scroll-mt-24"
+      className="bg-gradient-to-tr from-[#fdcf43] via-[#f7f7f6] to-[#c4e40a] py-10 scroll-mt-24"
     >
       <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold mb-3 playfair">About CPMS</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-3 playfair">About TPMS</h2>
         <p className="text-md md:text-lg max-w-3xl mx-auto text-gray-700 px-3">
-          Developed by final year students of Rizvi College of Engineering, CPMS (College Placement Management System) is a powerful web-based platform to streamline and manage campus placements efficiently.
+          Developed by Three final year students (Adarsh, Chandan & Gangadhar) of National Institute of Technology Jamshedpur, TPMS (Training and Placement Management System) is a powerful web-based platform to streamline and manage campus placements efficiently.
         </p>
       </div>
 

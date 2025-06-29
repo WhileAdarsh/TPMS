@@ -22,10 +22,10 @@ function LandingNavbar() {
         setLogoText('CPMS');
       } else if (width <= 768) {
         setButtonSize('md');
-        setLogoText('College Placement Management System');
+        setLogoText('Training and Placement Management System');
       } else {
         setButtonSize('lg');
-        setLogoText('College Placement Management System');
+        setLogoText('Training and Placement Management System');
       }
     };
 
@@ -44,7 +44,7 @@ function LandingNavbar() {
       className={`w-full z-50 transition-all duration-300 ease-in-out ${isScrolled ? 'backdrop-blur-md bg-white/60 shadow-md sticky top-0' : ''
         }`}
     >
-      <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center py-3 px-4">
+      <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center py-2 px-3">
         {/* Logo Section */}
         <div
           className="flex items-center max-md:gap-2 md:gap-4 cursor-pointer transition-transform hover:scale-105 duration-150"
@@ -53,7 +53,7 @@ function LandingNavbar() {
           <img
             src={Logo}
             alt="CPMS Logo"
-            className="rounded-xl border border-gray-300 w-16 h-16 md:w-20 md:h-20 shadow-sm"
+            className="rounded-xl border border-gray-300 w-5 h-5 md:w-8 md:h-10 shadow-sm"
           />
           <h1 className={`text-2xl md:text-4xl font-extrabold bg-gradient-to-r from-indigo-600 to-emerald-500 bg-clip-text text-transparent`}>
             {logoText}
