@@ -1,33 +1,73 @@
-# College Placement Management System
+# 🚀 Training and Placement Management System (TPMS) – NIT Jamshedpur
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [User Roles](#user-roles)
-- [Installation](#installation)
-- [Contributors](#contributors)
+## 📑 Table of Contents
+- [📌 Introduction](#-introduction)
+- [✨ Features](#-features)
+- [🛠️ Tech Stack](#-tech-stack)
+- [📂 Project Structure](#-project-structure)
+- [👥 User Roles](#-user-roles)
+- [⚙️ Installation](#-installation)
+  - [🔗 Backend Setup](#-backend-setup)
+  - [🎨 Frontend Setup](#-frontend-setup)
 
-## Introduction
-The **College Placement Management System** is a web application designed to streamline and digitize the placement process in colleges and universities. Developed by final year students of **Rizvi College of Engineering**, the system features a multi-role platform catering to students, TPO (Training and Placement Officer), management, and super admin. It aims to minimize manual efforts, improve transparency, and provide real-time tracking of the placement cycle.
+---
 
-## Features
-- **Student Portal**: Register and login, update profile, upload resume, view available job opportunities, apply for jobs, and track application status.
-- **TPO Admin Portal**: Post and manage job listings, approve/reject student applications, schedule interviews, upload offer letters.
-- **Management Admin Portal**: Access analytics, monitor placement stats, and view comprehensive reports.
-- **Super Admin Portal**: Full control of the system including onboarding TPOs and management users, managing system configurations.
-- **Cloudinary Integration**: Handles secure storage of profile pictures, resumes, and offer letters.
+## 📌 Introduction
+The **Training and Placement Management System (TPMS)** is a comprehensive web-based solution built for **NIT Jamshedpur** to efficiently manage and streamline the placement process. This platform reduces manual work, increases transparency, and provides real-time data for students, Training and Placement Officers (TPO), and management.
 
-## Tech Stack
-- **Frontend**: Vite + React.js, Tailwind CSS, Bootstrap
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JSON Web Tokens (JWT)
-- **File Storage**: Cloudinary
-- **Styling**: Tailwind CSS, Bootstrap
+Developed with ❤️ by:
+- **Adarsh Kumar**
+- **Chandan Pandey**
+- **Gangadhar Kumar**
 
-## Project Structure
+---
+
+## ✨ Features
+
+### 👨‍🎓 Student Features
+- 🔐 Secure registration and login
+- 📄 Profile creation and resume upload
+- 💼 View eligible job postings
+- 📝 Apply for job opportunities
+- 🔍 Check application and interview status
+
+### 🏢 TPO/Admin Features
+- 🆕 Post job listings and manage companies
+- 👥 Approve or reject student applications
+- 📅 Schedule interviews and events
+- 📜 Upload and distribute offer letters
+
+### 📊 Management Features
+- 📈 View placement statistics and reports
+- 🗂️ Access student data and company analytics
+- 🔍 Monitor overall placement progress
+
+### 🛡️ Super Admin Features
+- 🔧 System configuration management
+- 👤 Manage and onboard TPO/Admin users
+- 🗂️ Full access to all data and reports
+
+### ☁️ File Storage
+- ✅ Secure cloud storage via **Cloudinary** for:
+  - 📄 Resumes
+  - 📜 Offer letters
+  - 📷 Profile pictures
+
+---
+
+## 🛠️ Tech Stack
+| Technology | Description        |
+|-------------|--------------------|
+| ⚛️ React.js (Vite) | Frontend Framework |
+| 🎨 Tailwind CSS + Bootstrap | Styling |
+| 🟩 Node.js + 🚂 Express.js | Backend Framework |
+| 🍃 MongoDB | NoSQL Database |
+| 🔐 JSON Web Token (JWT) | Authentication |
+| ☁️ Cloudinary | File Storage |
+
+---
+
+## 📂 Project Structure
 ```plaintext
 ├── frontend
 │   ├── public
@@ -38,7 +78,7 @@ The **College Placement Management System** is a web application designed to str
 │   │   │   ├── LandingPages
 │   │   │   └── students
 │   │   ├── config
-│   │   │   └── backend_url.js      # Contains: export const BASE_URL = 'https://cpms-api.vercel.app';
+│   │   │   └── backend_url.js
 │   │   ├── context
 │   │   ├── hooks
 │   │   ├── pages
@@ -47,24 +87,16 @@ The **College Placement Management System** is a web application designed to str
 │   │   ├── App.jsx
 │   │   └── main.jsx
 │   ├── .gitignore
-│   ├── .eslint.config.js
-│   ├── index.html
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── tailwind.config.js
-│   └── vite.config.js
+│   ├── vite.config.js
 ├── backend
 │   ├── config
 │   ├── controllers
 │   ├── middleware
 │   ├── models
 │   ├── routes
-│   ├── .env (NOTE: YOU NEED TO CREATE THIS FILE)
-│   ├── .gitignore
+│   ├── .env (🔐 Required)
 │   ├── index.js
 │   ├── package.json
-│   └── package-lock.json
 └── README.md
 ```
 
@@ -131,9 +163,4 @@ cd college-placement-management-system
    npm run dev
    ```
 
-## Contributors
-- **Member 1**: [Moin MN](https://www.linkedin.com/in/moinnaik/)
-- **Member 2**: Rafat Muskan Shaikh
-- **Member 3**: Saquib Patel
-- **Member 4**: Neeraj Kumar
 
