@@ -28,7 +28,7 @@ function LandFooter() {
 
         {/* Footer Text */}
         <div className="text-center text-sm text-gray-600">
-          <p>© 2024 <span className="text-green-600 font-semibold">Training And Placement Management System</span>. All rights reserved.</p>
+          <p>© 2025 <span className="text-green-600 font-semibold">Training And Placement Management System</span>. All rights reserved.</p>
           <p className="mt-1 text-xs text-gray-500">Developed by Adarsh, Chandan and Ganga with ❤</p>
         </div>
       </div>
