@@ -1,6 +1,6 @@
 import React from 'react';
 import Student from '../../assets/student.jpg';
-import TPO from '../../assets/tpo.jpg';
+import TPO from '../../assets/tpo.jpeg';
 import Management from '../../assets/management.jpg';
 import Admin from '../../assets/admin.jpg';
 
